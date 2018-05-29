@@ -89,6 +89,10 @@ table {
   cursor: pointer;
 }
 
+.individual-pic-text {
+  cursor: pointer;
+}
+
 #feature-pic-texts {
   text-align: center;
   margin-top: 128px;
@@ -102,4 +106,34 @@ table {
  margin-top: 30px;
  height: 31px;
  overflow: hidden;  
+}
+
+#promo-content {
+  overflow: hidden;
+}
+
+.promo-box {
+  display: inline-block;
+  width: calc(25% - 1px);
+  margin-left: -3px;
+  height: 200px;
+  overflow: hidden;
+  cursor: pointer;
+  content: ".";
+}
+
+#iphone5s-thumb {
+  background: #fff url("../images/promo_iphone5s.jpg") -20px 0 no-repeat;
+}
+
+#iphone5c-thumb {
+  background: #fff url("../images/promo_iphone5c.jpg") -20px 0 no-repeat;
+}
+
+#thirty-years-thumb {
+  background: #fff url("../images/promo_30_years.jpg") -20px 0 no-repeat;
+}
+
+#responsibility-thumb {
+  background: #fff url("../images/promo_supplier_responsibility.jpg") -20px 0 no-repeat;
 }
