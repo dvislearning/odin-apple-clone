@@ -54,6 +54,16 @@ table {
   position: relative;
 }
 
+a:link, a:visited, a:active {
+    text-decoration: none;
+    color: #08c;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
 #feature-pic {
   position: relative;
   height: 550px;
@@ -137,3 +147,33 @@ table {
 #responsibility-thumb {
   background: #fff url("../images/promo_supplier_responsibility.jpg") -20px 0 no-repeat;
 }
+
+#page-footer {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  color: #6e6e6e;
+  font-size: .8334em;
+  text-align: left;
+  font: 11px/18px "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+#site-info {
+  margin-left: 54px;
+}
+
+#footer-links {
+  margin-right: 40px;
+}
+
+#page-footer #site-info p:last-child {
+  display: inline-block;
+  margin-top: 15px;
+}
+
+#footer-links img {
+  display: inline-block;
+  margin-left: 3px;
+  margin-bottom: -5px
+}
+
